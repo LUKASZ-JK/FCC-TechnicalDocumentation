@@ -30,6 +30,8 @@ main[id="main-doc"] {
   border-left: 1px solid rgb(44, 44, 44);
   padding: 1vw;
   line-height: 1.5em;
+  height: 100vh;
+  overflow: scroll;
 }
 
 p {
@@ -109,5 +111,8 @@ header {
   main[id="main-doc"] {
     border-top: 1px solid rgb(44, 44, 44);
     border-left: none;
+    padding-top: 1vh;
+    height: 95vh;
+    overflow: scroll;
   }
 }
